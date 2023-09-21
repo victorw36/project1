@@ -23,5 +23,6 @@ public class TipCalculator {
         System.out.println("---------------------------------");
         scan.close();
 
+        System.out.print("bye bye buddy");
     }
 }
