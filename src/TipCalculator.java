@@ -11,8 +11,8 @@ public class TipCalculator {
         int tipPercent = scan.nextInt();
         scan.nextLine();
 
-
-
+        System.out.print("type a number you would rather split the bill by(type same number of people if you don't need): ");
+        int differentNumber =scan.nextInt();
 
 
         double total = 0;
@@ -57,12 +57,8 @@ public class TipCalculator {
 
 
         //freestyle, splitting bill by a different number
-
-
-
-
-
-
+        double newCostPerson = totalWithTip / differentNumber;
+        System.out.println("The new cost per person is: $" + newCostPerson);
 
         scan.close();
 
